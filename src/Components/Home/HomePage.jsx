@@ -71,7 +71,7 @@ const HomePage = () => {
   }, [currentSlide]);
 
   return (
-    <div className="p-2 w-full h-[560px] sm:h-screen flex justify-center relative z-10 bg-custom-gradient">
+    <div className="p-2 w-full h-[600px] sm:h-screen flex justify-center relative z-10 bg-custom-gradient">
       {/* Carousel Content */}
       <div
         className={`flex flex-col md:flex-row items-center gap-4  md:gap-24 justify-start md:py-8 md:px-12 p-4 transition-opacity duration-200 transform ${
