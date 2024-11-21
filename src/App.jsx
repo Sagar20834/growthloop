@@ -5,6 +5,7 @@ import "./App.css";
 import { Outlet } from "react-router-dom";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
+import ContactUsButton from "./Components/MegaMenus/ContactUsButton";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className="">
         <Header />
         <Outlet />
+        <ContactUsButton />
         <Footer />
       </div>
     </>

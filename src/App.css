@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.podcast {
+  border-top-left-radius: 88px;
+  border-bottom-right-radius: 88px;
+}
+.headings-gradient {
+  background: linear-gradient(90deg, #10212f 0%, #152b3c 100%);
+}
+.slide-up-in {
+  animation: slideIn 0.5s ease forwards;
+}
+
+.slide-up-out {
+  animation: slideOut 0.5s ease forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+.clip-path-custom {
+  clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+}
+
+/* testimonials */

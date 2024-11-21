@@ -21,8 +21,8 @@ const ComingSoon = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
           >
-            <path d="M12 2L15 6L12 8L9 6L12 2ZM12 22L15 18L12 16L9 18L12 22ZM18 11L22 12L18 13L18 11ZM6 11L2 12L6 13L6 11ZM18.5 14L16 17L18.5 20L21 17L18.5 14ZM4.5 14L2 17L4.5 20L7 17L4.5 14ZM12 15L16 15L16 17L12 17L12 15ZM12 15L8 15L8 17L12 17L12 15ZM12 15L12 13L16 13L16 15L12 15ZM12 13L12 15L8 15L8 13L12 13ZM12 13L12 11L16 11L16 13L12 13Z"/>
-            <path d="M11 14L13 16L11 18L9 16L11 14Z" className="rocket-flame"/>
+            <path d="M12 2L15 6L12 8L9 6L12 2ZM12 22L15 18L12 16L9 18L12 22ZM18 11L22 12L18 13L18 11ZM6 11L2 12L6 13L6 11ZM18.5 14L16 17L18.5 20L21 17L18.5 14ZM4.5 14L2 17L4.5 20L7 17L4.5 14ZM12 15L16 15L16 17L12 17L12 15ZM12 15L8 15L8 17L12 17L12 15ZM12 15L12 13L16 13L16 15L12 15ZM12 13L12 15L8 15L8 13L12 13ZM12 13L12 11L16 11L16 13L12 13Z" />
+            <path d="M11 14L13 16L11 18L9 16L11 14Z" className="rocket-flame" />
           </svg>
         </div>
 
@@ -33,7 +33,8 @@ const ComingSoon = () => {
           We're working hard on this feature. Stay tuned for updates!
         </p>
         <p className="text-sm text-gray-500 mb-6">
-          Our team is crafting something special just for you. Thank you for your patience!
+          Our team is crafting something special just for you. Thank you for
+          your patience!
         </p>
         <Link
           to="/"
