@@ -1,14 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
-import threecx from "../../assets/3cx.svg";
-import adobe from "../../assets/adobe.svg";
-import figma from "../../assets/figma.svg";
 import gmail from "../../assets/Gmail.svg";
-import python from "../../assets/pyhton.svg";
 import { RiShareBoxFill } from "react-icons/ri";
-import logo2 from "../../assets/logo2.png";
+import logo2 from "../../assets/GLJPG.jpg";
 import { Link } from "react-router-dom";
 
-const CompanySliderSection = ({ bg, textbg, comp }) => {
+const CompanySliderSection = ({ bg }) => {
   const partneredCompanies = [
     {
       name: "Company 1",
@@ -98,17 +94,6 @@ const CompanySliderSection = ({ bg, textbg, comp }) => {
         </div>
 
         <div className="flex flex-col sm:flex-row font-semibold items-center justify-between mb-10 sm:mb-20 gap-6 sm:gap-24 w-full">
-          {comp === "true" && (
-            <div className="text-lg flex items-center font-saira">
-              <p className="font-medium text-[#fffff0] flex items-center">
-                See all Integration?
-              </p>
-              <Link to={"/"} className="flex items-center ml-2">
-                <img src={logo2} alt="logo" className="w-5 h-5" />
-                <RiShareBoxFill className="text-[#405263]" />
-              </Link>
-            </div>
-          )}
           <div className="flex  flex-col sm:flex-row sm:mx-auto mt-8 gap-4">
             <button className="px-4 py-2 sm:px-6 sm:py-2 bg-[#1a75bb] text-white rounded-lg shadow hover:bg-blue-600 transition-transform duration-500 transform hover:scale-105 font-maven">
               Start Your Project Today
