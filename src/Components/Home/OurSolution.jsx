@@ -7,7 +7,7 @@ import task from "../../assets/tasknotfinished.svg";
 import logo2 from "../../assets/GLJPG.jpg";
 import { Link } from "react-router-dom";
 import { RiShareBoxFill } from "react-icons/ri";
-import mockup from "../../assets/GLLMS.png";
+import mockup from "../../assets/GLLMS1.jpg";
 import lms from "../../assets/GLLMS.png";
 
 const OurSolution = () => {
@@ -73,7 +73,7 @@ const OurSolution = () => {
             ENHANCE YOUR BUSINESS WITH OUR SOLUTION
           </div>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+        <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
           {solutions.map((solution, index) => (
             <div
               key={index}
@@ -149,7 +149,7 @@ const OurSolution = () => {
           </div>
 
           {activeSolution.image3 && (
-            <div className="mt-8 flex justify-center items-center bg-[#EAB5B5] p-4 rounded-md">
+            <div className="mt-8 flex justify-center flex-col sm:flex-row items-center bg-[#EAB5B5] p-4 rounded-md">
               <div className="text-center">
                 <h3 className="font-saira font-medium text-xl text-[#111]">
                   Track Your Progress
@@ -161,7 +161,7 @@ const OurSolution = () => {
               <img
                 src={activeSolution.image3}
                 alt={activeSolution.name}
-                className="h-48 w-48 ml-4 rounded-md"
+                className="h-72 w-72 ml-4 rounded-md"
               />
             </div>
           )}
