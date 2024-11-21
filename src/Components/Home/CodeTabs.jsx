@@ -8,7 +8,7 @@ import csharpLogo from "../../assets/c-sharp.png"; // import C# logo
 import phpLogo from "../../assets/php.png"; // import PHP logo
 
 const CodeTabs = () => {
-  const [activeTab, setActiveTab] = useState("python");
+  const [activeTab, setActiveTab] = useState("javascript");
 
   const codeSnippets = {
     javascript: `
