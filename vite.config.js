@@ -14,11 +14,11 @@ export default defineConfig({
       ],
     },
     proxy: {
-      "/": {
+      "/api": {
         target: "http://localhost:5000",
         changeOrigin: true,
         secure: false,
-        // rewrite: path => path.replace(/^\/api/, ''), // If your backend is not expecting '/api' prefix
+        // rewrite: path => path.replace(/^\/api/, ''), // If your backend is not expecting '/api' prefix dgds
       },
     },
   },
