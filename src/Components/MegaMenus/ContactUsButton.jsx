@@ -23,7 +23,7 @@ const Modal = ({ isOpen, onClose }) => {
       }
     } catch (error) {
       console.error("Error sending email:", error);
-      alert("Failed to send the message. Please try again.");
+      toast.error("Failed to send the message. Please try again." + error);
     }
   };
 
