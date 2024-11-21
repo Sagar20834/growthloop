@@ -15,7 +15,7 @@ const Modal = ({ isOpen, onClose }) => {
 
   const onSubmit = async (data) => {
     try {
-      const response = await axios.post(`${url}/send-email`, data);
+      const response = await axios.post(`${url}/api/send-email`, data);
       if (response.status === 200) {
         toast.success("Your response was sent successfully");
         reset(); // Clear form after successful submission
