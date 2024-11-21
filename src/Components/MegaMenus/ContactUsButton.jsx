@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import { toast } from "react-toastify";
-const url = "https://hamrotyaribackend.onrender.com";
+const url = "https://growthloopbackend.onrender.com";
 
 const Modal = ({ isOpen, onClose }) => {
   const {
