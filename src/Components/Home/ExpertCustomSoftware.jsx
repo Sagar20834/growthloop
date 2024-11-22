@@ -40,9 +40,9 @@ const ExpertCustomSoftware = () => {
               Software Development Solutions
             </h1>
             <p className="text-base sm:text-lg font-arimo text-justify text-[#fffff0]">
-              At YougleTech, we specialize in crafting custom software solutions
-              tailored to your unique business needs. Our experienced team
-              collaborates closely with you to understand your objectives,
+              At Growth Lopp, we specialize in crafting custom software
+              solutions tailored to your unique business needs. Our experienced
+              team collaborates closely with you to understand your objectives,
               ensuring that every application we develop is robust, scalable,
               and aligned with your vision.
             </p>
@@ -70,13 +70,14 @@ const ExpertCustomSoftware = () => {
             <form onSubmit={handleSubmit(onSubmit)} className="mt-6">
               <input
                 className="border mt-2 border-[#1c3d56] bg-[#0D2232] rounded-[7px] p-2 w-full text-white focus:outline-none focus:ring focus:border-blue-500"
-                placeholder="Full Name*"
-                {...register("fullname", {
+                type="text"
+                placeholder="Full Full Name*"
+                {...register("name", {
                   required: true,
-                  onChange: () => clearErrors("fullname"),
+                  onChange: () => clearErrors("name"),
                 })}
               />
-              {errors.fullname && (
+              {errors.name && (
                 <span className="text-red-500 text-xs">
                   This field is required
                 </span>
@@ -84,7 +85,7 @@ const ExpertCustomSoftware = () => {
 
               <input
                 className="border mt-2 border-[#1c3d56] bg-[#0D2232] rounded-[7px] p-2 w-full text-white focus:outline-none focus:ring focus:border-blue-500"
-                placeholder="Email*"
+                placeholder="Your Email*"
                 type="email"
                 {...register("email", {
                   required: true,
@@ -99,9 +100,9 @@ const ExpertCustomSoftware = () => {
 
               <input
                 className="border mt-2 border-[#1c3d56] bg-[#0D2232] rounded-[7px] p-2 w-full text-white focus:outline-none focus:ring focus:border-blue-500"
-                placeholder="Mobile Number*"
+                placeholder="Your Phone Number*"
                 type="number"
-                {...register("mobile", {
+                {...register("phone", {
                   required: true,
                   onChange: () => clearErrors("mobile"),
                 })}

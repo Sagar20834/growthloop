@@ -48,32 +48,15 @@ const Modal = ({ isOpen, onClose }) => {
         <h2 className="text-lg font-semibold mb-4">Contact Us</h2>
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="mb-4">
-            <label className="block text-sm font-medium mb-1">Name</label>
+            <label className="block text-sm font-medium mb-1">Full Name</label>
             <input
               type="text"
               {...register("name", { required: "Name is required" })}
               className="w-full border rounded px-3 py-2"
-              placeholder="Your Name"
+              placeholder="Your Full Name*"
             />
             {errors.name && (
               <p className="text-red-500 text-sm">{errors.name.message}</p>
-            )}
-          </div>
-          <div className="mb-4">
-            <label className="block text-sm font-medium mb-1">
-              Phone Number
-            </label>
-            <div className="flex items-center">
-              <div className="border-y border-l rounded px-3 py-2">+977</div>
-              <input
-                type="number"
-                {...register("phone", { required: "Phone number is required" })}
-                className="w-full border rounded px-3 py-2"
-                placeholder="Your Phone Number"
-              />
-            </div>
-            {errors.phone && (
-              <p className="text-red-500 text-sm">{errors.phone.message}</p>
             )}
           </div>
           <div className="mb-4">
@@ -88,12 +71,30 @@ const Modal = ({ isOpen, onClose }) => {
                 },
               })}
               className="w-full border rounded px-3 py-2"
-              placeholder="Your Email"
+              placeholder="Your Email*"
             />
             {errors.email && (
               <p className="text-red-500 text-sm">{errors.email.message}</p>
             )}
           </div>
+          <div className="mb-4">
+            <label className="block text-sm font-medium mb-1">
+              Phone Number
+            </label>
+            <div className="flex items-center">
+              <div className="border-y border-l rounded px-3 py-2">+977</div>
+              <input
+                type="number"
+                {...register("phone", { required: "Phone number is required" })}
+                className="w-full border rounded px-3 py-2"
+                placeholder="Your Phone Number*"
+              />
+            </div>
+            {errors.phone && (
+              <p className="text-red-500 text-sm">{errors.phone.message}</p>
+            )}
+          </div>
+
           <div className="mb-4">
             <label className="block text-sm font-medium mb-1">Message</label>
             <textarea

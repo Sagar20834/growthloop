@@ -83,7 +83,7 @@ const Header = () => {
         <Link to={"/"} className="flex items-center">
           <img
             src={logo}
-            alt="YougleTech Logo"
+            alt="grotthloop Logo"
             className="h-14 w-16 bg-transparent"
           />
         </Link>
