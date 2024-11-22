@@ -66,7 +66,7 @@ const HomePage = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       handleSlideChange((currentSlide + 1) % slides.length);
-    }, 2000); // Slide changes every 2 seconds
+    }, 5000); // Slide changes every 2 seconds
     return () => clearInterval(interval);
   }, [currentSlide]);
 
