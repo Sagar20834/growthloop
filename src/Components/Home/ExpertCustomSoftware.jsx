@@ -71,7 +71,7 @@ const ExpertCustomSoftware = () => {
               <input
                 className="border mt-2 border-[#1c3d56] bg-[#0D2232] rounded-[7px] p-2 w-full text-white focus:outline-none focus:ring focus:border-blue-500"
                 type="text"
-                placeholder="Full Full Name*"
+                placeholder="Your Full Name*"
                 {...register("name", {
                   required: true,
                   onChange: () => clearErrors("name"),
