@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { IoSettingsOutline } from "react-icons/io5";
 import { BsBook } from "react-icons/bs";
-import crm from "../../assets/GLERP.png";
+import crm from "../../assets/GLERPNew.png";
 import collab from "../../assets/collaboration.svg";
 import task from "../../assets/tasknotfinished.svg";
 import logo2 from "../../assets/GLJPG.jpg";

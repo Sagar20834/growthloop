@@ -6,8 +6,28 @@ export default {
       animation: {
         fadeIn: "fadeIn 1s ease-in-out forwards",
         runningTime: "runningTime 7s linear forwards",
+        "fade-in": "fade-in 1.5s ease-out",
+        "slide-in": "slide-in 1s ease-out",
+        bounce: "bounce 2s infinite",
+        custom: "customAnimation 1s ease-in-out 1.2s forwards",
       },
       keyframes: {
+        fadeIn: {
+          "0%": {
+            opacity: 0,
+            transform: "translateY(100px)",
+            filter: "blur(33px)",
+          },
+          "100%": { opacity: 1, transform: "translateY(0)", filter: "blur(0)" },
+        },
+        "fade-in": {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+        "slide-in": {
+          "0%": { transform: "translateY(50px)", opacity: "0" },
+          "100%": { transform: "translateY(0)", opacity: "1" },
+        },
         customAnimation: {
           "0%": {
             opacity: "0",
@@ -20,22 +40,10 @@ export default {
             filter: "blur(0)",
           },
         },
-        fadeIn: {
-          "0%": {
-            opacity: 0,
-            transform: "translateY(100px)",
-            filter: "blur(33px)",
-          },
-          "100%": { opacity: 1, transform: "translateY(0)", filter: "blur(0)" },
-        },
-
         runningTime: {
           "0%": { width: "0%" },
           "100%": { width: "100%" },
         },
-      },
-      animation: {
-        custom: "customAnimation 1s ease-in-out 1.2s forwards",
       },
       backgroundImage: {
         "custom-gradient":

@@ -6,6 +6,7 @@ import path from "path";
 export default defineConfig({
   plugins: [react()],
   server: {
+    historyApiFallback: true,
     fs: {
       allow: [
         path.resolve(__dirname, "public"),

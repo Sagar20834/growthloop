@@ -7,6 +7,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import ComingSoon from "./Components/ComingSoon.jsx";
 import Home from "./Components/Home/Home.jsx";
+import AboutUs from "./Components/AboutUs/AboutUs.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/about",
+        element: <AboutUs />,
       },
       {
         path: "*",
