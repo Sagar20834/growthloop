@@ -1,5 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
 import gmail from "../../assets/Gmail.svg";
+import client1 from "../../assets/Client.jpg";
+import client2 from "../../assets/Client2.png";
+import client3 from "../../assets/Client3.jpg";
+import client4 from "../../assets/Client4.png";
+import client5 from "../../assets/Client5.png";
+import client6 from "../../assets/Client6.png";
 import { RiShareBoxFill } from "react-icons/ri";
 import logo2 from "../../assets/GLJPG.jpg";
 import { Link } from "react-router-dom";
@@ -8,34 +14,39 @@ const CompanySliderSection = ({ bg }) => {
   const partneredCompanies = [
     {
       name: "Company 1",
-      logo: gmail,
-      url: "/company1",
+      logo: client1,
+      url: "#",
     },
     {
       name: "Company 2",
-      logo: gmail,
-      url: "/company2",
+      logo: client2,
+      url: "#",
     },
     {
       name: "Company 3",
-      logo: gmail,
-      url: "/company3",
+      logo: client3,
+      url: "#",
     },
     {
       name: "Company 4",
-      logo: gmail,
-      url: "/company4",
+      logo: client4,
+      url: "#",
     },
     {
       name: "Company 5",
-      logo: gmail,
-      url: "/company5",
+      logo: client5,
+      url: "#",
+    },
+    {
+      name: "Company 5",
+      logo: client6,
+      url: "#",
     },
   ];
 
   const [isHovered, setIsHovered] = useState(false);
   const sliderRef = useRef(null);
-  const scrollSpeed = 3;
+  const scrollSpeed = 2;
 
   useEffect(() => {
     let animationFrameId;
