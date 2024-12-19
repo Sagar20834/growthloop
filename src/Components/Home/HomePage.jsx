@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import first from "../../assets/sliderfirstt.svg";
 import second from "../../assets/slidersecond.svg";
-import third from "../../assets/sliderthird.svg";
+import third from "../../assets/GLERPNew.png";
 import fourth from "../../assets/fourthh.svg";
 import logo from "../../assets/GLPNG.png";
 import { Link } from "react-router-dom";
