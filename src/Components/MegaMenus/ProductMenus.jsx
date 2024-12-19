@@ -37,7 +37,7 @@ const ProductMenus = ({ closeMenu }) => {
   const integratedProducts = [
     {
       title: "Enterprise Resource Planning ",
-      url: "/blog",
+      url: "http://103.191.130.38:81/growtherp/",
       description: "ERP solution business ",
       icon: (
         <FaBusinessTime

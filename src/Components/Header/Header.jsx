@@ -42,7 +42,7 @@ const Header = () => {
     setMenuPosition({
       top: headerRect.bottom + window.scrollY - 15,
       left: windowWidth / 2,
-      transform: "translateX(-50%)",
+      transform: "translateX(-40%)",
     });
 
     setIsMenuOpen(menuType);
@@ -51,7 +51,7 @@ const Header = () => {
   const handleMouseLeave = () => {
     const id = setTimeout(() => {
       setIsMenuOpen(null);
-    }, 200);
+    }, 800);
     setTimeoutId(id);
   };
 
@@ -65,7 +65,7 @@ const Header = () => {
   const handleMegaMenuMouseLeave = () => {
     const id = setTimeout(() => {
       setIsMenuOpen(null);
-    }, 200);
+    }, 800);
     setTimeoutId(id);
   };
 
