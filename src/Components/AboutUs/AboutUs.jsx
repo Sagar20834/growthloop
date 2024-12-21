@@ -40,7 +40,7 @@ const AboutUs = () => {
       ref={sectionRef}
       className="max-h-max  flex flex-col items-center justify-center p-6 animate-none"
     >
-      <div className="max-w-[80%] text-center bg-purple-100  rounded-lg p-8 shadow-2xl shadow-purple-600">
+      <div className="max-w-[80%] text-center bg-emerald-200-200  rounded-lg p-8 shadow-2xl shadow-gray-400-100">
         <div className="text-5xl font-bold text-gray-500 mb-6 animate-fade-in hover:scale-105 hover:transition-all hover:ease-in-out hover:duration-200 ">
           <span className="">About Us</span>
         </div>

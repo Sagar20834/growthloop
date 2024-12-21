@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import { RiShareBoxFill } from "react-icons/ri";
 import { FcGoogle } from "react-icons/fc";
 import { FaStar } from "react-icons/fa";
+import C1 from "../../assets/C1.png";
 
 const HomePage = () => {
   const slides = [
@@ -140,7 +141,7 @@ const HomePage = () => {
           <img
             src={slides[currentSlide].image}
             alt={slides[currentSlide].topText}
-            className="max-h-[300px] sm:max-h-[400px] md:max-h-[500px] w-full md:w-auto"
+            className="max-h-[400px] sm:max-h-[400px] md:max-h-[500px] w-full md:w-auto drop hover:scale-125 transition-all duration-300 ease-in-out"
           />
         </div>
       </div>
