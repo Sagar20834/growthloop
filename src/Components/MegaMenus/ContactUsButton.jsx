@@ -138,7 +138,7 @@ const ContactUsButton = () => {
   return (
     <>
       <button
-        className="fixed z-50 bottom-2 right-1 sm:bottom-11 sm:right-8 bg-blue-500 text-white px-4 py-2 rounded-full shadow-lg"
+        className="fixed z-50 bottom-2 right-1 sm:bottom-11 sm:right-8 bg-blue-500 text-white px-4 py-2 rounded-full shadow-lghover:bg-green-100 transition-all duration-300 animate-bounce"
         onClick={openModal}
       >
         Contact Us
