@@ -6,6 +6,7 @@ import client3 from "../../assets/Client3.jpg";
 import client4 from "../../assets/Client4.png";
 import client5 from "../../assets/Client5.png";
 import client6 from "../../assets/Client6.png";
+import client7 from "../../assets/National.png";
 import { RiShareBoxFill } from "react-icons/ri";
 import logo2 from "../../assets/GLJPG.jpg";
 import { Link } from "react-router-dom";
@@ -40,6 +41,11 @@ const CompanySliderSection = ({ bg }) => {
     {
       name: "Company 5",
       logo: client6,
+      url: "#",
+    },
+    {
+      name: "Company 6",
+      logo: client7,
       url: "#",
     },
   ];
