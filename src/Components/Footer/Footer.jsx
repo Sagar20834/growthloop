@@ -37,12 +37,23 @@ const Footer = () => {
             <div>
               <h1 className="font-semibold text-xl mb-5">Contact GrowthLoop</h1>
               <div>
-                <div className="mb-10  font-normal text-[15px] leading-[167%]  text-black">
+                <div className="mb-10 font-normal text-[15px] leading-[167%] text-black">
                   <h1 className="font-semibold text-base">Nepal Office</h1>
-                  <p>98-00000000</p>
+                  <a
+                    href="tel:+97715923246"
+                    className="text-blue-600 hover:underline block mb-1"
+                  >
+                    Landline: 01-5923246
+                  </a>
+                  <a
+                    href="tel:+9779851133324"
+                    className="text-blue-600 hover:underline block mb-1"
+                  >
+                    Mobile: +977 985-1133324
+                  </a>
                   <p>support@growthloop.com</p>
                   <p>Kathmandu, Nepal</p>
-                  <p className="text-[#1a75bb] flex items-center gap-1">
+                  <p className="text-[#1a75bb] flex items-center gap-1 cursor-pointer">
                     View Map <RiShareBoxFill className="text-[#1a75bb]" />
                   </p>
                 </div>

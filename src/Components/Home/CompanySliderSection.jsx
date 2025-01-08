@@ -14,39 +14,39 @@ import { Link } from "react-router-dom";
 const CompanySliderSection = ({ bg }) => {
   const partneredCompanies = [
     {
-      name: "Company 1",
+      name: "Jaleshwor",
       logo: client1,
-      url: "#",
+      url: "#1",
     },
     {
-      name: "Company 2",
+      name: "Kalika",
       logo: client2,
-      url: "#",
+      url: "https://kmti.edu.np/",
     },
     {
-      name: "Company 3",
+      name: "Khanepani",
       logo: client3,
-      url: "#",
+      url: "#3",
     },
     {
-      name: "Company 4",
+      name: "Shivsakti",
       logo: client4,
-      url: "#",
+      url: "https://shivshaktinepal.com/",
     },
     {
-      name: "Company 5",
+      name: "Sanskar",
       logo: client5,
-      url: "#",
+      url: "#5",
     },
     {
-      name: "Company 5",
+      name: "Rivera",
       logo: client6,
-      url: "#",
+      url: "https://www.riviera.edu.np/",
     },
     {
-      name: "Company 6",
+      name: "National",
       logo: client7,
-      url: "#",
+      url: "https://nationalhealthcare.com.np/",
     },
   ];
 
@@ -110,7 +110,7 @@ const CompanySliderSection = ({ bg }) => {
           ))}
         </div>
 
-        <div className="flex flex-col sm:flex-row font-semibold items-center justify-between mb-10 sm:mb-20 gap-6 sm:gap-24 w-full">
+        <div className="flex flex-col sm:flex-row font-semibold items-center justify-between  mb-10 sm:mb-20 gap-6 sm:gap-24 w-full">
           <div className="flex  flex-col sm:flex-row sm:mx-auto mt-8 gap-4">
             <button className="px-4 py-2 sm:px-6 sm:py-2 bg-[#1a75bb] text-white rounded-lg shadow hover:bg-blue-600 transition-transform duration-500 transform hover:scale-105 font-maven">
               Start Your Project Today
